@@ -1,6 +1,8 @@
 # GaussBayesPicSort
 ## 模式识别大作业 - 图片的贝叶斯分类器分类
 
+> 成品二进制包及文档请查看[gh-pages分支](https://github.com/zhengxiaoyao0716/GaussBayesPicSort/tree/gh-pages)，点这里查看[文档及展示](https://zhengxiaoyao0716.github.io/GaussBayesPicSort/)
+
 ***
 ### 一、环境与运行
 第一步：安装Python3并配置好环境变量之类的，略

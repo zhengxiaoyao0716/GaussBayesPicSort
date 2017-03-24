@@ -185,9 +185,9 @@ def analyze(canvas, pixs, length, width):
     step = simpledialog.askinteger(
         '请输入采样平方数量', '默认为100，即100的平方个点', initialvalue=100)
     ax = plt.figure().add_subplot(111, projection='3d')
-    ax.set_xlabel('x')
-    ax.set_ylabel('y')
-    ax.set_zlabel('gray')
+    ax.set_xlabel('R')
+    ax.set_ylabel('G')
+    ax.set_zlabel('B')
     points = [[], [], []]
     line_id = canvas.create_line(0, 0, 0, width)
     for x in range(step):

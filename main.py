@@ -174,9 +174,9 @@ def main():
             break
     print('\n正在计算特征向量，请稍候')
     ax = plt.figure().add_subplot(111, projection='3d')
-    ax.set_xlabel('x')
-    ax.set_ylabel('y')
-    ax.set_zlabel('gray')
+    ax.set_xlabel('R')
+    ax.set_ylabel('G')
+    ax.set_zlabel('B')
     points = [[], [], []]
     p = 0
     for x in range(step):

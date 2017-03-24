@@ -29,5 +29,5 @@ exe = EXE(pyz,
 
 # Copy  assets files
 from shutil import rmtree, copytree
-rmtree('./dist/assets/')
+rmtree('./dist/assets/', ignore_errors=True)
 copytree('./assets/', './dist/assets/')

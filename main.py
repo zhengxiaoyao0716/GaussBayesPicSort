@@ -161,7 +161,7 @@ def main():
     threading.Thread(target=new_image.show, name='Preview').start()
     # 描绘特征
     while True:
-        line = input("\n请输入采样密度：（默认为100）")
+        line = input("\n请输入采样平方数量：（默认为100，即100的平方个点）")
         if line == '':
             step = 100
             break

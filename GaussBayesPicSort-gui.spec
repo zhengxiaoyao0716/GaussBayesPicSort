@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['main.py'],
+a = Analysis(['main-gui.py'],
              pathex=['E:\\MyProject\\Python\\pattern\\GaussBayesPicSort'],
              binaries=[],
              datas=[],
@@ -21,11 +21,11 @@ exe = EXE(pyz,
           a.binaries,
           a.zipfiles,
           a.datas,
-          name='GaussBayesPicSort',
+          name='GaussBayesPicSort-gui',
           debug=False,
           strip=False,
           upx=True,
-          console=True , icon='icon.ico')
+          console=False , icon='icon.ico')
 
 # Copy  assets files
 from shutil import rmtree, copytree
